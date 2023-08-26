@@ -33,10 +33,10 @@
 // Uncomment to enable, for some a value > 1 may be assigned, if so the default value is shown.
 
 #ifndef USB_SERIAL_CDC
-#define USB_SERIAL_CDC     1 // Comment out to use UART communication.
+//#define USB_SERIAL_CDC     1 // Comment out to use UART communication.
 #endif
 //#define SAFETY_DOOR_ENABLE 1 // Enable safety door input.
-#define BLUETOOTH_ENABLE   2 // Set to 2 for HC-05 module. Requires and claims one auxillary input pin.
+//#define BLUETOOTH_ENABLE   2 // Set to 2 for HC-05 module. Requires and claims one auxillary input pin.
 #define SDCARD_ENABLE      2 // Run gcode programs from SD card. Set to 2 to enable YModem upload.
 //#define MPG_ENABLE         1 // Enable MPG interface. Requires serial port and one handshake pin.
 //#define TRINAMIC_ENABLE 2130 // Uncomment to enable Trinamic TMC2130 driver support. NOTE: Experimental for now, currently for SKR 1.x boards only
